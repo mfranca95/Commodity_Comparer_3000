@@ -1,7 +1,7 @@
 # Project-1
 # Commodity Investment Analyzer
 ​
-Brief description of your project.
+Commodity Comparer 300 is a game-changer, providing users with a simple and intuitive platform to compare commodity prices, access historical data, and analyze trends. 
 ​
 ## Table of Contents
 ​
@@ -75,6 +75,7 @@ pip install yfinance
 ## Usage
 ​
 Explain how to use your project. Provide examples, code snippets, or screenshots to make it easier for users to understand.
+
 ​
 ## Contributing
 ​
