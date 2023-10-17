@@ -12,7 +12,6 @@ Commodity Comparer 300 is a game-changer, providing users with a simple and intu
     - [Prerequisites](#prerequisites)
     - [Installation](#installation)
   - [Usage](#usage)
-  - [Contributing](#contributing)
   - [Acknowledgments](#acknowledgments)
 ​
 ## About
@@ -62,11 +61,7 @@ pip install yfinance
 In the majority of cases, the end user of an application is not a person who has knowledge in the programming area. This is why developing an analysis tool with an easy-to-use interface is so crucial.
 The objective of the commodity comparer is to make accessible financial analysis for people who are not versed in the programming area but have knowledge in the financial field.
 The use of Yahoo Finance gives the application an always 'up-to-date' information data source, which serves as a future-proofs design.
-​
-## Contributing
-​
-If you're open to contributions from the community, explain how others can contribute to your project. Include guidelines for code formatting, issue reporting, and pull requests.
-​
+
 ## Acknowledgments
 ​
 Part of the design for this program was generated using Tkinter Designer by Parth Jadhav. Credits on the next line.
