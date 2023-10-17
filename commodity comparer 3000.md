@@ -36,7 +36,7 @@ Monte Carlo simulations will be employed to simulate various investment scenario
 Matplotlib, Hvplot, and Geoviews will be used to create interactive and informative visualizations. This will include line charts, heatmaps, and geographical representations to make complex data more accessible.
 
 
-![Alt text](assets/frame0/matpltlib.png)
+![Alt text](assets/frame0/API.png)
 
 Matplotlib is a comprehensive library for creating static, animated, and interactive visualizations in Python. Matplotlib makes easy things easy and hard things possible. Create publication quality plots. Make interactive figures that can zoom, pan, update.
 Pandas Data Analysis: Pandas will be utilized for data cleaning, manipulation, and statistical analysis to answer research questions and provide relevant insights.
