@@ -120,7 +120,6 @@ def merge_dfs():
 
 def performance_display():
     ticket = str(v.get())
-    # print(ticket)
     volatility = 0.0
     cumu_percent = 0.0
     performance_graph = Figure(figsize=(3,3), facecolor="#AF90F2")
@@ -161,14 +160,19 @@ def simulation():
         num_simulation = 100,
         num_trading_days = int(simulation_days.get())
     )
-    mc_cumulative = mc_simulation.calc_cumulative_return()
-    return mc_cumulative
+    # mc_cumulative = mc_simulation.calc_cumulative_return()
+    return mc_simulation
 
 def mc_simulation_window():
-    sim_graph_data = simulation()
+    mc_simulation = simulation()
+    sim_graph_data = mc_simulation.calc_cumulative_return()
+    tbl = mc_simulation.summarize_cumulative_return()
+    initial_investment = 10000
+    ci_lower = round(tbl[8]*initial_investment,2)
+    ci_upper = round(tbl[9]*initial_investment,2)
     top = Toplevel(window)
     top.config(bg="#130660")
-    top.geometry("1000x800")
+    top.geometry("850x700")
     top.title("Monte Carlo Simulation")
     sim_graph = Figure(figsize=(7,5), facecolor="#AF90F2")
     ax_1 = sim_graph.add_subplot()
@@ -179,7 +183,11 @@ def mc_simulation_window():
     canvas3 = FigureCanvasTkAgg(figure=sim_graph, master=top)
     canvas3.draw()
     canvas3.get_tk_widget().place(x=70, y=70)
-    Label(top, text= "Simulation result", font=('Arial 15 bold'), background="#130660",fg='white').place(x=40,y=30)
+    Label(top, text= "Simulation result", font=('Arial 20 bold'), background="#130660",fg='white').place(x=70,y=20)
+    Label(top, text= f"There is a 95% chance that an initial investment of ${initial_investment} in the portfolio\n"
+                    f" over the next 30 years will end within in the range of\n"
+                    f" ${ci_lower} and ${ci_upper}", font=('Arial 15 bold'), 
+                    background="#130660",fg='white').place(x=70,y=600)
 
 
 # UI Code --------------------------------------------------------------
