@@ -38,44 +38,30 @@ API Integration: Data will be continuously updated via APIs to ensure that the t
 Explain how to get your project up and running on the user's local machine.
 ​
 ### Prerequisites
-​
-List any software, libraries, or dependencies that users need to have installed before they can use your project.
-​
-Example:
-​
-        Python (v3.6 or higher)
-​
+​​
+Python (v3.6 or higher)
 ​
 ### Installation
 ​
-Provide step-by-step instructions on how to install your project. You can use code blocks and shell commands to illustrate the process.
-​
-Example:
-​
-Clone the repository:
-​
-​
-        git clone https://github.com/your-username/your-project.git
-​
-Change into the project directory:
-​
-        cd your-project
-​
-​
-Install the necessary dependencies:
+- clone the repository using the following command in your console: git clone https://github.com/mfranca95/Commodity_Comparer_3000.git
+- Get into an environment that you want to run the program in.
+- Install all the necessary libraries (list at the end of the section)
+- Inside the comparer.py file in line 24, change the "C:\Users\marco\OneDrive\Desktop\Project-1\build\assets\frame0" to "(your location)\assets\frame0", "your location" been the address in where you saved the information of the app.
+​​
+Necessary dependencies:
 ​
 ​npm install 
 pip install matplotlib
 pip install pandas
-pip install hvplot
 pip install pathlib
 pip install yfinance
 
 ​
 ## Usage
 ​
-Explain how to use your project. Provide examples, code snippets, or screenshots to make it easier for users to understand.
-
+In the majority of cases, the end user of an application is not a person who has knowledge in the programming area. This is why developing an analysis tool with an easy-to-use interface is so crucial.
+The objective of the commodity comparer is to make accessible financial analysis for people who are not versed in the programming area but have knowledge in the financial field.
+The use of Yahoo Finance gives the application an always 'up-to-date' information data source, which serves as a future-proofs design.
 ​
 ## Contributing
 ​
@@ -83,8 +69,8 @@ If you're open to contributions from the community, explain how others can contr
 ​
 ## Acknowledgments
 ​
-If your project uses third-party libraries, frameworks, or resources, acknowledge them here. You can also thank teammates or provide links to relevant resources.
-Collapse
+Part of the design for this program was generated using Tkinter Designer by Parth Jadhav. Credits on the next line.
+https://github.com/ParthJadhav/Tkinter-Designer
 
 
 
