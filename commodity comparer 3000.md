@@ -43,6 +43,6 @@ Pandas Data Analysis: Pandas will be utilized for data cleaning, manipulation, a
 
 
 ## API Integration: 
-![Alt text](assets/frame0/matpltlib.png)
+![Alt text](assets/API.png)
 
 Data will be continuously updated via APIs to ensure that the tool provides real-time information for decision-making.
