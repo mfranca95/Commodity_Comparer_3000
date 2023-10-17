@@ -25,7 +25,7 @@ Percentile Change Comparison: The tool will calculate and compare the percentile
 
 Monte Carlo Simulations: Monte Carlo simulations will be employed to simulate various investment scenarios. Users can input their investment amounts and timeframes, and the tool will provide probabilistic forecasts for potential growth.
 
-Visualization: Matplotlib, Hvplot, and Geoviews will be used to create interactive and informative visualizations. This will include line charts, heatmaps, and geographical representations to make complex data more accessible.
+Visualization: Matplotlib will be used to create informative visualizations. This will include line charts  to make complex data more accessible.
 
 Pandas Data Analysis: Pandas will be utilized for data cleaning, manipulation, and statistical analysis to answer research questions and provide relevant insights.
 
